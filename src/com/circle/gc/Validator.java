@@ -1,3 +1,4 @@
+//Jiao Xu 5/4/2018
 package com.circle.gc;
 
 import java.util.Scanner;
