@@ -16,8 +16,8 @@ public class CircleApp {
 
 			Circle c = new Circle(radius);
  
-			System.out.println("Circumference: " + c.getFormattedCircumference(radius));
-			System.out.println("Area: " + c.getFormattedArea(radius));
+			System.out.println("Circumference: " + c.getFormattedCircumference());
+			System.out.println("Area: " + c.getFormattedArea());
 
 			System.out.println("Continue? (y/n)");
 			cont = scnr.next();
@@ -26,6 +26,7 @@ public class CircleApp {
 		System.out.println("Goodbye.");
 		System.out.println("You have calculated "+ num + " circles");
 		scnr.close();
+		
 	}
 
 }
